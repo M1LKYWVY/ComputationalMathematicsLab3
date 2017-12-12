@@ -178,7 +178,7 @@ public class MainController {
 
                 splineFunctions.add(y[i] + bSign + b[i] + "*" + "(x-" + x[i] + ")" + cSign + c[i] + "*" + "(x-" + x[i] + ")^2" + dSign + d[i] + "*" + "(x-" + x[i] + ")^3");
             }
-            System.out.printf("\nf(x)=" + currentGraphic +
+            System.out.print("\nf(x)=" + currentGraphic +
                     "\na[i]\tb[i]\tc[i]\td[i]\n");
             for (int k = 1; k < N; k++) {
                 System.out.printf("%f\t%f\t%f\t%f\n", y[k], b[k], c[k], d[k]);
